@@ -217,6 +217,32 @@
       flex-direction: column;
       align-items: stretch;
     }
+
+    input[type='text'],
+    input[type='date'],
+    select,
+    button,
+    .search {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .filters {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .task {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .actions {
+      width: 100%;
+      justify-content: flex-end;
+    }
   }
   `;
   document.head.appendChild(style);
